@@ -27,7 +27,7 @@ Elegir ChatBot NOVA significa optar por una comunicación clara y un acceso dire
 
 ## 🚀 Comenzando
 
-Antes de ejecutar el código, asegúrate de tener la API Key de OpenAI como una variable de entorno. Debes solicitar esta clave al equipo de desarrollo y crear un archivo `.env` en el directorio raíz del proyecto.
+Antes de ejecutar el código, asegúrate de tener la API Key de OpenAI como una variable de entorno. Debes procurar tu propia key y crear un archivo `.env` en el directorio raíz del proyecto, por motivos de seguridad esta key no esta incluida en el codigo, y el archivo .env no sera tomado en cuenta para el versionado de la aplicacion.
 
 Sigue estos pasos para poner en marcha el chatbot para pruebas:
 
@@ -45,13 +45,13 @@ En Linux/MacOS:
 1. Crear el Entorno Virtual:
 
    ```bash
-   python3 -m venv venv
+   python3 -m venv <venv-name>
    ```
 
 2. Activar el Entorno Virtual:
 
    ```bash
-   source venv/bin/activate
+   source <venv-name>/bin/activate
    ```
 
 En Windows:
@@ -59,17 +59,17 @@ En Windows:
 1. Crear el Entorno Virtual:
 
    ```bash
-   python -m venv venv
+   python -m venv <venv-name>
    ```
 2. Activar el Entorno Virtual (CMD):
 
    ```bash
-   venv\Scripts\activate.bat
+   <venv-name>\Scripts\activate.bat
    ```
 3. Activar el Entorno Virtual (PowerShell):
 
    ```bash
-   venv\Scripts\Activate.ps1
+   <venv-name>\Scripts\Activate.ps1
    ```
 
 ### Instalar Dependencias
@@ -90,8 +90,7 @@ pip install -r requirements.txt
    ```
 ###  Ejecutar el Chatbot
 ```bash
-cd backend
-python NovaBot.py
+python app.py
 ```
 
 ## 🧠 Cerebro
