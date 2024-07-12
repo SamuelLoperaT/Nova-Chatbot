@@ -100,15 +100,17 @@ Ver archivo [CEREBRO.md](https://github.com/gruponovaeafit/chatbot-nova/blob/mai
 
 
 ## 💬 Uso
-El chatbot está diseñado para responder a una amplia gama de entradas de los usuarios. Siéntete libre de hacer preguntas, realizar afirmaciones o entablar una conversación casual.
+El Chatbot dispone de una interfaz grafica para su interaccion. 
 
-```bash
-Ingresa tu pregunta! (escribe 'exit' para salir): Hablame de Communities
+Solo es necesario realizar una pregunta cualquiera al chat.
+
+En caso de querer utilizar las funciones de calculo de embeddings o de generar respuestas, usa
+
+```python
+import NovaBot
 ```
-```bash
-NovaBot: Las comunidades son un elemento clave en el ámbito de las relaciones 
-públicas y especialmente en el trabajo del departamento de RRPP de NOVA...
-```
+
+en tu codigo, para poder utilizar las funciones de forma individual y desde la terminal.
 
 ## 🧪 Lineamientos para Pruebas
 Durante la fase de prueba, enfócate en los siguientes aspectos:
